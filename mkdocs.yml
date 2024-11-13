@@ -1,4 +1,16 @@
-site_name: My site
+site_name: System Dynamics and Control 2024
 site_url: https://mydomain.org/mysite
 theme:
   name: material
+plugins:
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: zh
+          default: true
+          name: 简体中文
+          build: true
+        - locale: en
+          name: English
+          build: true
+          
