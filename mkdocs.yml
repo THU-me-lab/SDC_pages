@@ -8,6 +8,7 @@ theme:
     - content.code.annotate 
     - content.tabs.link
 plugins:
+  - search
   - i18n:
       docs_structure: suffix
       languages:
@@ -18,6 +19,9 @@ plugins:
         - locale: en
           name: English
           build: true
+  - git-authors:
+      show_contribution: true
+      show_line_count: true
 
 markdown_extensions:
   - pymdownx.arithmatex:
@@ -32,6 +36,7 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - attr_list
+  - md_in_html
 
 extra_javascript:
   - javascripts/mathjax.js
