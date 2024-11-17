@@ -12,7 +12,7 @@ theme:
     - navigation.footer
   icon:
     repo: fontawesome/brands/git-alt
-  logo: assets/logo.png
+
 plugins:
   - search
   - i18n:
